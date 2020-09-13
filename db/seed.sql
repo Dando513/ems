@@ -1,6 +1,6 @@
-USE employees;
+USE employeesdb;
 
-INSERT INTO department
+INSERT INTO departments
     (name)
 VALUES
     ("Sales"),
@@ -20,7 +20,7 @@ VALUES
     ("Junior IT", 70000, 4),
     ("Head of IT", 93000, 4);
 
-INSERT INTO employee
+INSERT INTO employees
     (first_name, last_name, role_id, manager_id)
 VALUES
     ("Erin", "Duffy", 1, NULL),

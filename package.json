@@ -1,0 +1,25 @@
+{
+  "name": "ems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dando513/ems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dando513/ems/issues"
+  },
+  "homepage": "https://github.com/Dando513/ems#readme",
+  "dependencies": {
+    "console-table-printer": "^2.4.2",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
